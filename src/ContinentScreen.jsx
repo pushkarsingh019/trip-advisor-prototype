@@ -15,7 +15,11 @@ const ContinentScreen = () => {
                 {continentToShow.name} to visit
             </h1>
             <br />
-            <CardList data={continentToShow.countries} type="countries" />
+            <CardList
+                data={continentToShow.countries}
+                type="countries"
+                continent={continentId}
+            />
         </section>
     );
 };

@@ -13,7 +13,7 @@ const App = () => {
                     element={<ContinentScreen />}
                 />
                 <Route
-                    path="/:continent/:country/:placeId"
+                    path="/:continentId/:countryId/:placeId"
                     element={<PlaceScreen />}
                 />
             </Routes>
